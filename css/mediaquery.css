@@ -1,0 +1,28 @@
+/* TABLET */
+
+/* SEZIONE 1 */
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 768px;
+        width: 100%;
+    }
+}
+
+/* MOBILE */
+
+/* SEZIONE 1 */
+@media screen and (max-width:480px) {
+    .container {
+        max-width: 480px;
+        width: 100%;
+    }
+
+    .introduction > .container.row {
+        flex-direction: column;
+    }
+
+    .introduction .main.card,
+    .introduction .card {
+        width: 100%;
+    }
+}

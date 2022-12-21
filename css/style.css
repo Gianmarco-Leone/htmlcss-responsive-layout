@@ -1,0 +1,35 @@
+/* HEADER */
+
+header {
+    height: 5rem;
+    background-color: #0084FD;
+}
+
+header .nav-col {
+    width: 50%;
+    /* debug */
+    border: 3px dashed black;
+    height: 5rem;
+}
+
+/* MAIN */
+
+/* SEZIONE 1 */
+.introduction .row {
+    padding: 2rem;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.introduction .card {
+    width: calc(100% / 3 - 10px);
+    background-color: #b5ddff;
+    /* debug */
+    height: 15rem;
+    border-radius: 20px;
+}
+
+.introduction .main.card {
+    width: calc(100% / 3*2 - 10px);
+}
+
