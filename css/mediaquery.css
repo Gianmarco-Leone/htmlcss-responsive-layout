@@ -45,7 +45,17 @@
         flex-direction: column;
     }
 
-        .benefits .row .card {
-            width: 100%;
-        }
+    .benefits .row .card {
+        width: 100%;
+    }
+
+    /* SEZIONE 5 */
+    .about-us .row {
+        flex-direction: column;
+    }
+
+    .about-us .main-col,
+    .about-us .side-col {
+        width: 100%;
+    }
 }

@@ -80,5 +80,24 @@ header .nav-col {
     background-color: #FFF;
 }
 
+/* SEZIONE 5 */
+.about-us .row {
+    padding: 2rem 0;
+}
+
+.about-us .main-col {
+    width: 80%;
+    /* debug */
+    border: 2px dashed black;
+    height: 20rem;
+}
+
+.about-us .side-col {
+    width: 20%;
+    /* debug */
+    border: 2px dashed black;
+    height: 20rem;
+}
+
 
 
