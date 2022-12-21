@@ -1,5 +1,14 @@
 /* TABLET */
 @media screen and (max-width:768px) {
+    /* HEADER */
+    header .main-col > ul {
+        display: none;
+    }
+
+    header .main-col > .icon-menu {
+        display: block;
+    }
+
     /* SEZIONE 1 */
     .container {
         max-width: 768px;

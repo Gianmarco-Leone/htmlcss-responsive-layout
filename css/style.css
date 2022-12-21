@@ -1,14 +1,41 @@
+/* GENERICS */
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 /* HEADER */
 header {
     height: 5rem;
     background-color: #0084FD;
 }
 
-header .nav-col {
-    width: 50%;
-    /* debug */
-    border: 3px dashed black;
+header .main-col {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     height: 5rem;
+}
+
+header .side-col {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+}
+
+header .main-col ul > li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+header li > a {
+    text-decoration: none;
+    color: white;
+}
+
+header .icon-menu {
+    display: none;
+    color: white;
+    font-size: 1.2rem;
 }
 
 /* MAIN */
@@ -85,14 +112,12 @@ header .nav-col {
 }
 
 .about-us .main-col {
-    width: 80%;
     /* debug */
     border: 2px dashed black;
     height: 20rem;
 }
 
 .about-us .side-col {
-    width: 20%;
     /* debug */
     border: 2px dashed black;
     height: 20rem;
