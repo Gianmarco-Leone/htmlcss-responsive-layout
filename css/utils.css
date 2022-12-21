@@ -10,8 +10,15 @@
 
 .container {
 	max-width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 0 2rem;
+}
+
+.small-container {
+	max-width: 1080px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .clearfix::after {
@@ -23,6 +30,13 @@
 .row {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.col {
+	width: 50%;
+	/* debug */
+	border: 1px dashed black;
+	height: 100%;
 }
 
 /* PADDING */

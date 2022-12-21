@@ -1,17 +1,21 @@
 /* TABLET */
-
-/* SEZIONE 1 */
 @media screen and (max-width:768px) {
+    /* SEZIONE 1 */
     .container {
         max-width: 768px;
         width: 100%;
     }
+
+    /* SEZIONE 2 */
+    .purple .col {
+        width: 100%;
+    }
 }
 
-/* MOBILE */
 
-/* SEZIONE 1 */
+/* MOBILE */
 @media screen and (max-width:480px) {
+    /* SEZIONE 1 */
     .container {
         max-width: 480px;
         width: 100%;

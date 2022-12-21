@@ -31,5 +31,19 @@ header .nav-col {
 
 .introduction .main.card {
     width: calc(100% / 3*2 - 10px);
+    display: flex;
 }
+
+/* SEZIONE 2 */
+.purple {
+    background-color: #9792E4;
+    padding: 3rem 0;
+}
+
+/* debug */
+.purple .col {
+    height: 25rem;
+}
+
+
 
