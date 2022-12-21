@@ -45,5 +45,24 @@ header .nav-col {
     height: 25rem;
 }
 
+/* SEZIONE 3 */
+.testimonials {
+    padding: 3rem 0;
+}
+
+.testimonials .text-center {
+    /* debug */
+    border: 2px dashed black;
+    height: 15rem;
+}
+
+.testimonials .box {
+    background-color: #9792E4;
+    border-radius: 15px;
+    margin: 2rem 0;
+    /* debug */
+    height: 10rem;
+}
+
 
 
