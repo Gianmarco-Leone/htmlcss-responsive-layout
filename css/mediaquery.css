@@ -15,6 +15,14 @@
         width: 100%;
     }
 
+    .introduction .main.card {
+        flex-direction: column;
+    }
+
+    .introduction .col {
+        width: 100%;
+    }
+
     /* SEZIONE 2 */
     .features .col {
         width: 100%;

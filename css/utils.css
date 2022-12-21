@@ -1,9 +1,9 @@
 :root {
-	--space-xs: 5px;
-	--space-sm: 10px;
-	--space-md: 15px;
-	--space-lg: 25px;
-	--space-xl: 50px;
+	--space-xs: .5rem;
+	--space-sm: 1rem;
+	--space-md: 2rem;
+	--space-lg: 3rem;
+	--space-xl: 5rem;
 }
 
 /* Utils */
@@ -39,6 +39,17 @@
 	padding: 0.5em;
 }
 
+.btn.blue-btn {
+	background-color: #0084FD;
+	padding: 0.5rem 1.5rem;
+	width: 50%;
+	color: #FFF;
+}
+
+.d-flex {
+	display: flex;
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -48,14 +59,14 @@
 	width: calc(100% / 3 - 10px);
 	border-radius: 20px;
 	/* debug */
-	height: 15rem;
+	/* height: 15rem; */
 }
 
 .col {
 	width: 50%;
 	/* debug */
-	border: 1px dashed black;
-	height: 100%;
+	/* border: 1px dashed black; */
+	/* height: 100%; */
 }
 
 .main-col {
@@ -64,6 +75,10 @@
 
 .side-col {
 	width: 20%;
+}
+
+.text-center {
+	text-align: center;
 }
 
 /* PADDING */

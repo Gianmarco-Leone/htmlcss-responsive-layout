@@ -56,6 +56,27 @@ header .icon-menu {
     display: flex;
 }
 
+.introduction .col.d-flex {
+    align-items: end;
+} 
+
+.introduction .card h4 {
+    color: #0084FD;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.introduction .col > img {
+    width: 50%;
+}
+
+.introduction .card .card-icon {
+    display: block;
+    text-align: center;
+    color: #0084FD;
+    font-size: 4rem;
+}
+
 /* SEZIONE 2 - FEATURES */
 .features {
     background-color: #9792E4;
