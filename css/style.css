@@ -22,11 +22,7 @@ header .nav-col {
 }
 
 .introduction .card {
-    width: calc(100% / 3 - 10px);
     background-color: #b5ddff;
-    /* debug */
-    height: 15rem;
-    border-radius: 20px;
 }
 
 .introduction .main.card {
@@ -62,6 +58,26 @@ header .nav-col {
     margin: 2rem 0;
     /* debug */
     height: 10rem;
+}
+
+/* SEZIONE 4 */
+.benefits {
+    background-color: #9792E4;
+}
+
+.benefits .text-center {
+    /* debug */
+    border: 2px dashed black;
+    height: 5rem;
+}
+
+.benefits .row {
+    gap: 10px;
+    padding: 2rem 0;
+}
+
+.benefits .card {
+    background-color: #FFF;
 }
 
 
