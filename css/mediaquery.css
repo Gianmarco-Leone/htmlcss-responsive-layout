@@ -37,6 +37,13 @@
     .benefits .row .card {
         width: calc(100% / 2 - 10px);
     }
+
+    /* SEZIONE 6 */
+
+        .start>.text-center {
+            width: 80%;
+            margin: 0 auto;
+        }
 }
 
 
