@@ -96,4 +96,8 @@
     .about-us .side-col {
         width: 100%;
     }
+
+    .about-us .side-col {
+        margin-top: 1rem;
+    }
 }

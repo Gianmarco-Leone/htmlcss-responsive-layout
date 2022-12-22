@@ -216,15 +216,50 @@ header .icon-menu {
 }
 
 .about-us .main-col {
-    /* debug */
-    border: 2px dashed black;
-    height: 20rem;
+    width: 70%;
 }
 
 .about-us .side-col {
-    /* debug */
-    border: 2px dashed black;
-    height: 20rem;
+    width: 30%;
+    position: relative;
+}
+
+.about-us .main-col h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #9792E4;
+    padding: 1rem 0;
+}
+
+.about-us .main-col p {
+    font-size: 1.2rem;
+}
+
+.about-us .circle-image {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.about-us .about-icon {
+    color: #9792E4;
+    font-size: 3rem;
+    position: absolute;
+    top: 0;
+    left: 7rem;
+}
+
+.about-us .side-col > strong {
+    color: #9792E4;
+    font-size: 1.5rem;
+}
+
+.about-us .side-col .btn.purple-btn {
+    width: 50%;
+    padding: .5rem;
+    font-size: .8rem;
 }
 
 /* SEZIONE 6 - START */
