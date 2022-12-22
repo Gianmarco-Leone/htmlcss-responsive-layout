@@ -62,6 +62,22 @@
         flex-direction: column;
     }
 
+    /* SEZIONE 3 */
+
+    .testimonials .box .circle-image {
+        width: 100%;
+    }
+
+    .testimonials .box.d-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    } 
+
+    .testimonials .main-col {
+        width: 100%;
+    }
+
     /* SEZIONE 4 */
     .benefits .row {
         flex-direction: column;

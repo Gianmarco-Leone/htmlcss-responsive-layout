@@ -82,6 +82,11 @@
 	text-align: center;
 }
 
+strong {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
 /* PADDING */
 
 .p1 {
