@@ -24,11 +24,11 @@
     }
 
     /* SEZIONE 2 */
-    .features .col {
+    #features .col {
         width: 100%;
     }
 
-    .features .features-col-content {
+    #features .features-col-content {
         width: 100%;
         margin-top: 1rem;
     }
@@ -75,17 +75,17 @@
     }
 
     /* SEZIONE 3 */
-    .testimonials .box .circle-image {
+    #testimonials .box .circle-image {
         width: 100%;
     }
 
-    .testimonials .box.d-flex {
+    #testimonials .box.d-flex {
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
     } 
 
-    .testimonials .main-col {
+    #testimonials .main-col {
         width: 100%;
     }
 
@@ -99,16 +99,16 @@
     }
 
     /* SEZIONE 5 */
-    .about-us .row {
+    #about-us .row {
         flex-direction: column;
     }
 
-    .about-us .main-col,
-    .about-us .side-col {
+    #about-us .main-col,
+    #about-us .side-col {
         width: 100%;
     }
 
-    .about-us .side-col {
+    #about-us .side-col {
         margin-top: 1rem;
     }
 

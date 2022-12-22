@@ -7,6 +7,10 @@ body {
 header {
     height: 5rem;
     background-color: #0084FD;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 header .main-col {
@@ -41,6 +45,10 @@ header .icon-menu {
 /* MAIN */
 
 /* SEZIONE 1 - INTRODUCTION */
+.introduction {
+    padding-top: 6rem;
+}
+
 .introduction .row {
     padding: 2rem;
     row-gap: 20px;
@@ -78,27 +86,27 @@ header .icon-menu {
 }
 
 /* SEZIONE 2 - FEATURES */
-.features {
+#features {
     background-color: #9792E4;
     padding: 3rem 0;
 }
 
-.features .col {
+#features .col {
     color: #FFF;
 }
 
-.features .col > h3 {
+#features .col > h3 {
     font-weight: bold;
     font-size: 1.8rem;
     padding-bottom: 1.5rem;
 }
 
-.features .col > img {
+#features .col > img {
     padding-bottom: 10rem;
     width: 80%;
 }
 
-.features .features-col-content {
+#features .features-col-content {
     background-color: #FFF;
     width: 70%;
     color: #000;
@@ -106,18 +114,18 @@ header .icon-menu {
     padding: 3rem;
 }
 
-.features .features-col-content h4 {
+#features .features-col-content h4 {
     font-weight: bold;
     font-size: 1.4rem;
     padding-bottom: 1rem;
 }
 
-.features .features-col-content p {
+#features .features-col-content p {
     font-style: italic;
     padding-bottom: 2rem;
 }
 
-.features .features-col-content .circle-arrow {
+#features .features-col-content .circle-arrow {
     color: #000;
     background-color: #9792E4;
     height: 3rem;
@@ -127,7 +135,7 @@ header .icon-menu {
     text-align: center;
 }
 
-.features .features-col-content a {
+#features .features-col-content a {
     color: #000;
     font-size: 1.2rem;
     display: block;
@@ -135,31 +143,31 @@ header .icon-menu {
     line-height: 3rem;
 }
 
-.features .col.d-flex {
+#features .col.d-flex {
     align-items: flex-end;
     justify-content: center;
 }
 
 /* SEZIONE 3 - TESTIMONIALS */
-.testimonials {
+#testimonials {
     padding: 3rem 0;
 }
 
-.testimonials .text-center h2 {
+#testimonials .text-center h2 {
     font-size: 2.4rem;
     font-weight: bold;
     color: #9792E4;
     padding: 1rem 0;
 }
 
-.testimonials .box {
+#testimonials .box {
     background-color: #9792E4;
     border-radius: 15px;
     margin: 2rem 0;
     padding: 2rem;
 }
 
-.testimonials .box .circle-image > img {
+#testimonials .box .circle-image > img {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
@@ -167,7 +175,7 @@ header .icon-menu {
     object-fit: cover;
 }
 
-.testimonials .main-col {
+#testimonials .main-col {
     color: #FFF;
     padding-top: 2rem;
     font-size: 1.1rem;
@@ -211,31 +219,31 @@ header .icon-menu {
 }
 
 /* SEZIONE 5 - ABOUT US */
-.about-us .row {
+#about-us .row {
     padding: 2rem 0;
 }
 
-.about-us .main-col {
+#about-us .main-col {
     width: 70%;
 }
 
-.about-us .side-col {
+#about-us .side-col {
     width: 30%;
     position: relative;
 }
 
-.about-us .main-col h2 {
+#about-us .main-col h2 {
     font-size: 3rem;
     font-weight: bold;
     color: #9792E4;
     padding: 1rem 0;
 }
 
-.about-us .main-col p {
+#about-us .main-col p {
     font-size: 1.2rem;
 }
 
-.about-us .circle-image {
+#about-us .circle-image {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
@@ -243,7 +251,7 @@ header .icon-menu {
     object-fit: cover;
 }
 
-.about-us .about-icon {
+#about-us .about-icon {
     color: #9792E4;
     font-size: 3rem;
     position: absolute;
@@ -251,12 +259,12 @@ header .icon-menu {
     left: 7rem;
 }
 
-.about-us .side-col > strong {
+#about-us .side-col > strong {
     color: #9792E4;
     font-size: 1.5rem;
 }
 
-.about-us .side-col .btn.purple-btn {
+#about-us .side-col .btn.purple-btn {
     width: 50%;
     padding: .5rem;
     font-size: .8rem;

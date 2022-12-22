@@ -65,15 +65,10 @@
 .card {
 	width: calc(100% / 3 - 10px);
 	border-radius: 20px;
-	/* debug */
-	/* height: 15rem; */
 }
 
 .col {
 	width: 50%;
-	/* debug */
-	/* border: 1px dashed black; */
-	/* height: 100%; */
 }
 
 .main-col {
