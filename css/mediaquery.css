@@ -28,10 +28,10 @@
         width: 100%;
     }
 
-        .features .features-col-content {
-            width: 100%;
-            margin-top: 1rem;
-        }
+    .features .features-col-content {
+        width: 100%;
+        margin-top: 1rem;
+    }
 
     /* SEZIONE 4 */
     .benefits .row .card {
@@ -39,11 +39,16 @@
     }
 
     /* SEZIONE 6 */
+    .start>.text-center {
+        width: 80%;
+        margin: 0 auto;
+    }
 
-        .start>.text-center {
-            width: 80%;
-            margin: 0 auto;
-        }
+    /* FOOTER */
+    footer>.text-center {
+        width: 60%;
+        margin: 0 auto;
+    }
 }
 
 
@@ -70,7 +75,6 @@
     }
 
     /* SEZIONE 3 */
-
     .testimonials .box .circle-image {
         width: 100%;
     }
@@ -106,5 +110,10 @@
 
     .about-us .side-col {
         margin-top: 1rem;
+    }
+
+    /* FOOTER */
+    footer>.text-center {
+        width: 100%;
     }
 }
