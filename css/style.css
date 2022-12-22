@@ -178,10 +178,11 @@ header .icon-menu {
     background-color: #9792E4;
 }
 
-.benefits .text-center {
-    /* debug */
-    border: 2px dashed black;
-    height: 5rem;
+.benefits .text-center h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #FFF;
+    padding: 1rem 0;
 }
 
 .benefits .row {
@@ -191,6 +192,22 @@ header .icon-menu {
 
 .benefits .card {
     background-color: #FFF;
+}
+
+.benefits .card > .card-number {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #9792E4;
+    padding-bottom: .5rem;
+}
+
+.benefits .card > strong {
+    color: #9792E4;
+}
+
+.benefits .card > p {
+    font-size: .8rem;
+    padding: 1rem 0 2rem;
 }
 
 /* SEZIONE 5 - ABOUT US */

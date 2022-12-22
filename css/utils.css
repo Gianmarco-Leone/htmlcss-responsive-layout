@@ -47,6 +47,12 @@
 	color: #FFF;
 }
 
+.btn.purple-btn {
+	background-color: #9792E4;
+	color: #FFF;
+	padding: .5rem 3rem;
+}
+
 .d-flex {
 	display: flex;
 }
